@@ -25,7 +25,7 @@
 
 ## **3. 과정**
 ### ① 데이터
-- AI-HUB 데이터 중 '졸음운전 예방을 위한 운전자 상태 정보 영상'의 데이터 활용
+- AI-HUB 데이터 중 '졸음운전 예방을 위한 운전자 상태 정보 영상'의 데이터 활용  
 ※ 출처: https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=173
 (복사 가능한 박스로 변경 필요)
 - 실제 도로 주행 데이터, 준 통제 환경 데이터, 통제 환경 데이터 중 **통제 환경 데이터 활용**
