@@ -92,8 +92,14 @@
 - json파일 내의 어노테이션 Bounding Box정보를 이용해서 YOLO 등의 모델에 적용할 경우 성능 개선의 여지가 있음
 
 ## 💡**5. 참고문헌**
-- CNN 성능향상(https://velog.io/@ruinak_4127/CNN-%EC%84%B1%EB%8A%A5%ED%96%A5%EC%83%81)
-- 
+- [CNN 성능향상](https://velog.io/@ruinak_4127/CNN-%EC%84%B1%EB%8A%A5%ED%96%A5%EC%83%81)
+- [y_pred와 y_true 값 추출하기](https://stackoverflow.com/questions/66636157/how-can-i-plot-a-confusion-matrix-for-image-dataset-from-directory)
+- [confusion matrix 작성하기](https://benn.tistory.com/18)
+- [batch normalization 성능 향상](https://eehoeskrap.tistory.com/430)
+- [ResNet50 전이학습](https://velog.io/@dlskawns/Deep-Learning-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%B2%98%EB%A6%AC-%EC%A0%84%EC%9D%B4%ED%95%99%EC%8A%B5Transfer-Learning-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EB%B6%84%EB%A5%98-%EB%AA%A8%EB%8D%B8-%EA%B5%AC%ED%98%84-%EC%8B%A4%EC%8A%B5#2-%EC%A0%84%EC%9D%B4%ED%95%99%EC%8A%B5%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%B4-%EC%B5%9C%EC%A2%85-%EB%B6%84%EB%A5%98%EA%B8%B0%EB%A5%BC-%EB%AA%A9%EC%A0%81%EC%97%90-%EB%A7%9E%EA%B2%8C-%EB%B0%94%EA%BE%B8%EA%B8%B0)
+- [EfficientNetB0 전이학습](https://deep-learning-study.tistory.com/563)
+- [EfficientNetB0 미세조정](https://luvbb.tistory.com/39)
+
 
 ## 🌈**6. 조원**
 |**이름**|**링크**|
