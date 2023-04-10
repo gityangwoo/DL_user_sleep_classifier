@@ -20,7 +20,6 @@
 (epoch 10번에 대한 기록 캡쳐한 이미지 넣기)
 
 - Data set에 대하여 모델의 입출력값 비교
-![Alt text](_)
 <img width="477" alt="스크린샷 2023-04-09 230947" src="https://user-images.githubusercontent.com/122243187/230874447-fcfbe33f-40b3-4b98-88d4-8ba4c26f992b.png">
 
 
