@@ -35,7 +35,7 @@
   - 수집한 데이터를 얼굴윤곽, 눈, 코, 입, 소지품등을 바운딩박스로 가공한 데이터
 
 ### ② Frame Work
-- 본 프로젝트에서는 Tensorflow-Keras 프레임워크를 중심으로 진행하였습니다.
+- 본 프로젝트에서는 Tensorflow-Keras 프레임워크를 중심으로 진행하였습니다.<br>
 ```!pip install tensorflow```
 
 ### ③ EDA & 전처리
