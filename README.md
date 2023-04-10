@@ -42,7 +42,7 @@
 
 |**변경 전**|**변경 후**|
 |:---:|:---:|
-|이미지별로 Annotation 파일이 Json파일 형식으로 분산 저장|EDA 용이성을 위해 하나의 DataFrame에 저장|
+|이미지별로 Annotation 파일이<br> Json파일 형식으로 분산 저장|EDA 용이성을 위해 하나의 DataFrame에 저장|
 |촬영 객체별로 폴더가 분리되어 저장되어 있음 |flow from directory 모듈 사용을 위해 label별로 폴더 생성 후 shutil.move()|
 |이미지 1280 * 800의 흑백이미지(channel = 1)| 직접 build한 모델 적용시 컴퓨팅 파워 고려,<br> 80 * 50 , 160 * 100, 320 * 200 등으로 변환|
 |이미지 1280 * 800의 흑백 이미지(channel = 1)|전이학습시 사전학습한 imagenet input shape 고려,<br> 224 * 224의 컬러 이미지(channel = 3)으로 변환|
