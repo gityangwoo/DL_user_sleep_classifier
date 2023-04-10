@@ -66,8 +66,9 @@
 - BN은 Batch Normalization의 약자
 - TL은 Transfer Learning의 약자(pretrained data = imagenet)
 - Resnet50 TL은 top layer만 train
-- EfficientNetB0 TL은 총 238개 layer 중 200th layer부터 train
-※ 원천 데이터 중 일부 데이터만 테스트 한 경우가 있고 flow from directory 파라미터 shuffle을을 True로 설정한 관계로 iteration마다 성능 차이 있을 수 있음.
+- EfficientNetB0 TL은 총 238개 layer 중 200th layer부터 train<br>
+※ 원천 데이터 중 일부 데이터만 테스트 한 경우 有<br>
+※ flow from directory 파라미터 shuffle을을 True로 설정한 관계로 iteration마다 성능 차이 있을 수 있음.
 
 ||**loss**|**accuracy**|**val_loss**|**val_accuracy**|
 |:---:|:---:|:---:|:---:|:---:|
