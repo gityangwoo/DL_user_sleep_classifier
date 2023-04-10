@@ -15,7 +15,7 @@
 ### ② 운전자 행태별로 이미지가 해당 행태를 나타낼 확률 값을 출력합니다.
 <img width="425" alt="스크린샷 2023-04-10 194352" src="https://user-images.githubusercontent.com/122243187/230887099-1ef78f88-a107-4e25-b117-1bb847eb7ffb.png">
 
-### ③ 가장 높은 확률 값을 가지는 운전자 행태를 최종 예측 값으로  실제 값과 비교합니다.
+### ③ 가장 높은 확률 값을 가지는 운전자 행태를 최종 예측 값으로 간주하여 실제 값과 비교합니다.
 - Validation Accuracy: 0.8874
 <img width="778" alt="스크린샷 2023-04-09 230903" src="https://user-images.githubusercontent.com/122243187/230874763-0e2b07f7-fa5c-40c2-9a9e-6e6af8f5b6e5.png">
 
