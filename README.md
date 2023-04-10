@@ -2,7 +2,7 @@
 ---
 ## **1. Project 소개**
 - 운전자 부주의로 인한 교통사고 통계
-  - [<흡연>담배를 피는 운전자 10명 중 3.6명이 운전 중 흡연으로 인해 교통사고를 냈거나 본인이 아닌 상대방의 흡연으로 사고](http://www.gjtnews.com/news/articleView.html?idxno=31792)
+  - [<흡연>담배를 피는 운전자 10명 중 3.6명이 운전 중 흡연으로 인해 교통사고](http://www.gjtnews.com/news/articleView.html?idxno=31792)
   - [<졸음> 2019년부터 2021년까지 봄철(3월부터 5월까지) 하루 평균 7건 가량의 졸음 운전 사고 발생](https://www.iwjnews.com/news/articleView.html?idxno=52644)
   - [<통화> 운전 중 전화통화로 인한 사고는 정상 운행 상태에 비해 4배 이상의 사고 확률을 기록](https://www.korea.kr/news/reporterView.do?newsId=115084354#reporter)
 
@@ -20,7 +20,8 @@
 (epoch 10번에 대한 기록 캡쳐한 이미지 넣기)
 
 - Data set에 대하여 모델의 입출력값 비교
-(confusion matrix 이미지 넣기) 
+![Alt text](_)
+<img width="477" alt="스크린샷 2023-04-09 230947" src="https://user-images.githubusercontent.com/122243187/230874447-fcfbe33f-40b3-4b98-88d4-8ba4c26f992b.png">
 
 
 ## **3. 과정**
