@@ -1,6 +1,6 @@
 # DL_user_sleep_classifier
 ---
-## **1. Project 소개**
+## 📚**1. Project 소개**
 - 운전자 부주의로 인한 교통사고 통계
   - [<흡연>담배를 피는 운전자 10명 중 3.6명이 운전 중 흡연으로 인해 교통사고](http://www.gjtnews.com/news/articleView.html?idxno=31792)
   - [<졸음> 2019년부터 2021년까지 봄철(3월부터 5월까지) 하루 평균 7건 가량의 졸음 운전 사고 발생](https://www.iwjnews.com/news/articleView.html?idxno=52644)
@@ -8,7 +8,7 @@
 
 - 운전자 이미지를 정상, 하품, 졸음, 흡연, 통화로 분류하는 모델을 구현하여 운전자 부주의 행태 모니터링 시스템 구축에 기여
 
-## **2. 결과**
+## 📌**2. 결과**
 ### ① 운전자 이미지를 입력합니다.
 (운전자 이미지 넣기)
 
@@ -17,7 +17,7 @@
 
 ### ③ 가장 높은 확률 값을 가지는 운전자 행태를 예측 값으로 실제 값과 비교합니다.
 - Validation Accuracy: 0.8874
-(epoch 10번에 대한 기록 캡쳐한 이미지 넣기)
+<img width="778" alt="스크린샷 2023-04-09 230903" src="https://user-images.githubusercontent.com/122243187/230874763-0e2b07f7-fa5c-40c2-9a9e-6e6af8f5b6e5.png">
 
 - Data set에 대하여 모델의 입출력값 비교
 <img width="477" alt="스크린샷 2023-04-09 230947" src="https://user-images.githubusercontent.com/122243187/230874447-fcfbe33f-40b3-4b98-88d4-8ba4c26f992b.png">
@@ -26,9 +26,8 @@
 ## **3. 과정**
 ### ① 데이터
 - AI-HUB 데이터 중 '졸음운전 예방을 위한 운전자 상태 정보 영상'의 데이터 활용  
-```
 ※ 출처: https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=173
-```
+(복사 가능한 박스로 변경 필요)
 - 실제 도로 주행 데이터, 준 통제 환경 데이터, 통제 환경 데이터 중 **통제 환경 데이터 활용**
   - 데이터 수집을 위한 신뢰성 있는 졸음 및 부주의 상황을 판단하기 위한 다양성, 정밀성, 정량적 예측가능성 확보
   - 실제 승용차량을 완벽히 통제된 실험실 환경에서 일반운전 상황과 부주의 운전 상황을 시나리오에 따라 사람의 연기를 통해 연출한 영상을 수집한 데이터
