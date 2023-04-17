@@ -19,7 +19,7 @@
 - Validation Accuracy: 0.8898
 <img width="852" alt="image" src="https://user-images.githubusercontent.com/122243187/232367677-fbcda9f1-e8e6-49f3-9fd9-089666b364a5.png">
 
-- Confusion Matrix : Data set에 대하여 모델의 실제 label과  비교 <br>
+- Confusion Matrix : Data set에 대하여 모델의 실제 label과 예측치 비교 <br>
 ![image](https://user-images.githubusercontent.com/122243187/232368324-9481a85d-e36d-404b-8afd-8764e7c2d6d1.png)
 
 
