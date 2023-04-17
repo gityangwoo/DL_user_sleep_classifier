@@ -20,7 +20,7 @@
 <img width="852" alt="image" src="https://user-images.githubusercontent.com/122243187/232367677-fbcda9f1-e8e6-49f3-9fd9-089666b364a5.png">
 
 - Data set에 대하여 모델의 입출력값 비교
-<img width="109" alt="image" src="https://user-images.githubusercontent.com/122243187/232367968-459a243d-433a-444a-997e-5321030ebb12.png">
+![image](https://user-images.githubusercontent.com/122243187/232368324-9481a85d-e36d-404b-8afd-8764e7c2d6d1.png)
 
 
 ## 📋**3. 과정**
