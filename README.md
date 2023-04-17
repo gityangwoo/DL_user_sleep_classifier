@@ -16,11 +16,11 @@
 <img width="425" alt="스크린샷 2023-04-10 194352" src="https://user-images.githubusercontent.com/122243187/230887099-1ef78f88-a107-4e25-b117-1bb847eb7ffb.png">
 
 ### ③ 가장 높은 확률 값을 가지는 운전자 행태를 최종 예측 값으로 간주하여 실제 값과 비교합니다.
-- Validation Accuracy: 0.8732
-<img width="778" alt="스크린샷 2023-04-09 230903" src="https://user-images.githubusercontent.com/122243187/230874763-0e2b07f7-fa5c-40c2-9a9e-6e6af8f5b6e5.png">
+- Validation Accuracy: 0.8898
+<img width="852" alt="image" src="https://user-images.githubusercontent.com/122243187/232367677-fbcda9f1-e8e6-49f3-9fd9-089666b364a5.png">
 
 - Data set에 대하여 모델의 입출력값 비교
-<img width="477" alt="스크린샷 2023-04-09 230947" src="https://user-images.githubusercontent.com/122243187/230874447-fcfbe33f-40b3-4b98-88d4-8ba4c26f992b.png">
+<img width="437" alt="image" src="https://user-images.githubusercontent.com/122243187/232367968-459a243d-433a-444a-997e-5321030ebb12.png">
 
 
 ## 📋**3. 과정**
@@ -76,7 +76,7 @@
 |Resnet w/o BN|6.1449|0.4396|3.9817|0.3918|
 |Resnet w BN|0.4187|0.8184|0.5127|0.7788|
 |Resnet50 TL|0.6958|0.7158|0.7224|0.7044|
-|EfficientNetB0 TL|0.0720|0.9790|0.6489|0.8732|
+|EfficientNetB0 TL|0.0731|0.9787|0.4358|0.8898|
 
 ### ⑤ Final Model
 - accuracy와 val_accuracy가 가장 높은 EfficientNetB0의 전이학습 모델(200번째 layer부터 train) 채택
