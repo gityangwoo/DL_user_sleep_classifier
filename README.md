@@ -16,11 +16,11 @@
 <img width="425" alt="스크린샷 2023-04-10 194352" src="https://user-images.githubusercontent.com/122243187/230887099-1ef78f88-a107-4e25-b117-1bb847eb7ffb.png">
 
 ### ③ 가장 높은 확률 값을 가지는 운전자 행태를 최종 예측 값으로 간주하여 실제 값과 비교합니다.
-- Validation Accuracy: 0.8898
-<img width="852" alt="image" src="https://user-images.githubusercontent.com/122243187/232367677-fbcda9f1-e8e6-49f3-9fd9-089666b364a5.png">
+- Validation Accuracy: 0.9312
+<img width="580" alt="image" src="https://user-images.githubusercontent.com/122243187/233257337-76530c34-6144-4044-bb29-2d39e8beef7c.png">
 
 - Confusion Matrix : Data set에 대하여 모델의 실제 label과 예측치 비교 <br>
-![image](https://user-images.githubusercontent.com/122243187/232368324-9481a85d-e36d-404b-8afd-8764e7c2d6d1.png)
+<img width="270" alt="image" src="https://user-images.githubusercontent.com/122243187/233257469-80cbbcb7-fd4d-459b-b373-db0cf6bf478e.png">
 
 
 ## 📋**3. 과정**
@@ -67,6 +67,7 @@
 - TL은 Transfer Learning의 약자(pretrained data = imagenet)
 - Resnet50 TL은 top layer만 train
 - EfficientNetB0 TL은 총 238개 layer 중 200th layer부터 train<br>
+- EfficientNetB3 TL은 총 385개 layer 중 350th layer부터 train<br>
 ※ 원천 데이터 중 일부 데이터만 테스트 한 경우 有<br>
 ※ flow from directory 파라미터 shuffle을 True로 설정한 관계로 iteration마다 성능 차이 있을 수 있음.
 
@@ -77,9 +78,10 @@
 |Resnet w BN|0.4187|0.8184|0.5127|0.7788|
 |Resnet50 TL|0.6958|0.7158|0.7224|0.7044|
 |EfficientNetB0 TL|0.0731|0.9787|0.4358|0.8898|
+|EfficientNetB3 TL|0.1174|0.9662|0.2571|0.9312|
 
 ### ⑤ Final Model
-- accuracy와 val_accuracy가 가장 높은 EfficientNetB0의 전이학습 모델(200번째 layer부터 train) 채택
+- accuracy와 val_accuracy가 가장 높은 EfficientNetB3의 전이학습 모델(350번째 layer부터 train) 채택
 
 
 ## 🔎 **4. 한계 및 개선사항**
@@ -89,8 +91,7 @@
   ex) 실제 운전 환경에서 촬영한 이미지 등
 - 각자의 개인 컴퓨터를 이용했기 때문에 큰 해상도의 이미지로 학습을 시키지 못함
 ### 2) 개선사항
-- EfficientNetB0를 전이학습 시킬 때 이번 프로젝트에서는 큰 의미를 두고 200번째 Layer를 trainable시킨 것이 아니라 추후에 이를 개선할 여지가 있음
-- json파일 내의 어노테이션 Bounding Box정보를 이용해서 YOLO 등의 모델에 적용할 경우 성능 개선의 여지가 있음
+- EfficientNetB3를 전이학습 시킬 때 이번 프로젝트에서는 큰 의미를 두고 350번째 Layer를 trainable시킨 것이 아니라 추후에 이를 개선할 여지가 있음
 
 ## 💡**5. 참고문헌**
 - [CNN 성능향상](https://velog.io/@ruinak_4127/CNN-%EC%84%B1%EB%8A%A5%ED%96%A5%EC%83%81)
@@ -98,8 +99,8 @@
 - [confusion matrix 작성하기](https://benn.tistory.com/18)
 - [batch normalization 성능 향상](https://eehoeskrap.tistory.com/430)
 - [ResNet50 전이학습](https://velog.io/@dlskawns/Deep-Learning-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%B2%98%EB%A6%AC-%EC%A0%84%EC%9D%B4%ED%95%99%EC%8A%B5Transfer-Learning-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EB%B6%84%EB%A5%98-%EB%AA%A8%EB%8D%B8-%EA%B5%AC%ED%98%84-%EC%8B%A4%EC%8A%B5#2-%EC%A0%84%EC%9D%B4%ED%95%99%EC%8A%B5%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%B4-%EC%B5%9C%EC%A2%85-%EB%B6%84%EB%A5%98%EA%B8%B0%EB%A5%BC-%EB%AA%A9%EC%A0%81%EC%97%90-%EB%A7%9E%EA%B2%8C-%EB%B0%94%EA%BE%B8%EA%B8%B0)
-- [EfficientNetB0 전이학습](https://deep-learning-study.tistory.com/563)
-- [EfficientNetB0 미세조정](https://luvbb.tistory.com/39)
+- [EfficientNetB3 전이학습](https://deep-learning-study.tistory.com/563)
+- [EfficientNetB3 미세조정](https://luvbb.tistory.com/39)
 
 
 ## 🌈**6. 조원**
